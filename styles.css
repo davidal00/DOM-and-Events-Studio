@@ -4,3 +4,42 @@
     height: 80%;
     width: 40%;
 }
+
+#takeoff:hover {
+    background-color: blue;
+    color: white;
+}
+  
+#landing:hover {
+    background-color: green;
+    color: white;
+}
+
+#abortMission:hover {
+    background-color: green;
+    color: white;
+}
+
+#upButton:hover {
+    background-color: purple;
+    color: white;
+}
+
+#downButton:hover {
+    background-color: purple;
+    color: white;
+}
+
+#leftButton:hover {
+    background-color: purple;
+    color: white;
+}
+
+#rightButton:hover {
+    background-color: purple;
+    color: white;
+}
+
+#rocket {
+  position: absolute;
+}

@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
         <title>Flight Simulator</title>
         <link rel = "stylesheet" type = "text/css" href = "styles.css" />
-        <script src = "scripts.js"></script>
+        <script src = "scripts.js"></script>      
     </head>
     <body>
         <div style="text-align: center;">
@@ -20,13 +22,13 @@
                 <p>Houston, we are ready when you are!</p>
             </div>
             <div id = "shuttleBackground" style = "position: relative;">
-                <img src = "LaunchCode_rocketline_white.png" height = "75" width = "75" id = "rocket"/>
+                <img src = "LaunchCode_rocketline_white.png" height = "70" width = "75" id = "rocket"/>
             </div>
             <div style = "text-align: center; display: inline-block;">
-                    <button>Up</button>
-                    <button>Down</button>
-                    <button>Right</button>
-                    <button>Left</button>
+                    <button id = "upButton">Up</button>
+                    <button id = "downButton">Down</button>
+                    <button id = "leftButton">Left</button>
+                    <button id = "rightButton">Right</button>
                     <h3>Space Shuttle Height</h3>
                     <p id='spaceShuttleHeight'>0</p><p style = "display: inline-block;"> miles</p>
             </div>
@@ -34,7 +36,7 @@
         <div style="text-align: center;">
             <button id = "takeoff">Take off</button>
             <button id = "landing">Land</button>
-            <button id = "missionAbort">Abort Mission</button>
+            <button id = "abortMission">Abort Mission</button>
     </div>
     </body>
 </html>
